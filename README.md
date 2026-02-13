@@ -2,6 +2,16 @@
 
 **Rewind** is a custom Gemini Gem designed to act as a "Time Machine" for your Google Meet recordings. It cross-references your **Google Calendar** with your **Google Drive** transcripts to instantly recall decisions, action items, and quotes from past meetings.
 
+**Core Capabilities:**
+
+-   **Smart Retrieval:** Prioritizes "Meet Recordings" folders but falls back to Global Search for external meetings.
+
+-   **Calendar Integration:** Resolves natural language dates ("last Tuesday") to specific file attachments.
+
+-   **Proxy Search Logic:** Overcomes API limitations by using Calendar metadata to trigger precise Drive searches.
+
+-   **Context Awareness:** Distinguishes between "Notes" (summaries) and "Transcripts" (raw quotes).
+
 ## Prerequisites
 
 For this Gem to work, the user must have:
